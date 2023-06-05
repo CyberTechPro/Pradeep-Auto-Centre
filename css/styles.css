@@ -1,0 +1,270 @@
+html {
+	scroll-behavior: smooth;
+	transition: all 2s ease-in-out;
+}
+
+/* Navbar */
+
+nav {
+	background-color: #86e5ff;
+}
+
+.navbar-toggler.custom-toggler {
+	border: 1px solid #6c00ff;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28108, 0, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Header */
+
+.top-heading {
+	color: #5f9bce;
+	font-family: "Comfortaa", cursive;
+	text-align: center;
+	font-size: 4rem;
+	padding-top: 5rem;
+	font-weight: 600;
+}
+
+.header-img {
+	max-width: 90%;
+	height: 45rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+}
+
+.header-subtitle {
+	text-align: center;
+	font-family: "Varela Round", sans-serif;
+	font-size: 18px;
+	padding-top: 5px;
+	line-height: 1.5;
+}
+
+.quote-button {
+	background-color: aqua;
+	color: #256d85;
+}
+
+.header-button {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+/* HR */
+
+hr {
+	background-color: transparent;
+	width: 7%;
+	background: black;
+	margin-top: 5rem;
+	height: 2px;
+}
+
+/* Section Headings */
+
+.section-headings {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Bree Serif", serif;
+}
+
+/* Updates Section */
+
+.updates-box {
+	display: flex;
+	justify-content: center;
+	border: 3px solid rgba(255, 255, 255, 0.963);
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+	margin-bottom: 50px;
+	margin-top: 50px;
+	transition: transform 0.5s ease-in-out;
+}
+
+.updates-box:hover {
+	transform: scale(1.1);
+}
+
+.updates-img {
+	border-radius: 5%;
+	width: 40%;
+	margin-right: auto;
+}
+
+.up-text-box {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+}
+
+.updates-heading {
+	margin-bottom: 10px;
+}
+
+/* Testimonials */
+
+.review-container {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 60%;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.review-box {
+	width: 70%;
+	margin: 0 1.5rem;
+	white-space: nowrap;
+	margin-bottom: 20px;
+}
+
+.review-time {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.review-text {
+	padding-top: 20px;
+	font-family: "Chivo", sans-serif;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.reviewer-name {
+	color: #5f9bce;
+	font-family: "Comfortaa", sans-serif;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.review-links {
+	text-align: center;
+}
+
+.write-review {
+	padding-bottom: 5px;
+	margin-right: 5rem;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: fit-content;
+	display: inline;
+	color: #5f9bce;
+}
+
+/* About Us */
+
+.about-us-box {
+	font-size: 17px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 2;
+	width: 80%;
+	font-family: "Quicksand", sans-serif;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+}
+
+/* Gallery */
+
+#carouselExampleSlidesOnly {
+	margin: 0 auto;
+	width: 80%;
+	transform: scaleX(1.2);
+}
+
+/* Contact Us Section */
+
+.map-img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.contact-box {
+	padding-left: 8.5rem;
+	padding-top: 2rem;
+}
+
+.call-button {
+	background-color: #5f9bce;
+	margin-bottom: 1rem;
+}
+
+.call {
+	font-family: "Chivo", sans-serif;
+	color: white;
+}
+
+.contact-text {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer Section */
+
+footer {
+	position: relative;
+	bottom: 10;
+	left: 0;
+	right: 0;
+	height: auto;
+	background: #c3f8ff;
+	padding-top: 30px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+	body {
+		text-align: center;
+	}
+	.footer-content {
+		padding-left: auto;
+		padding-right: auto;
+	}
+	.contact-box {
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+	.map {
+		justify-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	.section-headings {
+		border: 1px solid rgb(71, 70, 70);
+		border-radius: 60px;
+	}
+	.review-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+    .updates-box{
+        height: 100%;
+        width: 100%;
+    }
+    .updates-img{
+        height: 20%;
+        /* width: 20%; */
+    }
+    .header-img{
+        height: auto;
+        border-radius: 50px;
+    }
+
+}
